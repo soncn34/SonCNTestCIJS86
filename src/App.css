@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.checkList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.informationComp {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.myInput {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.task {
+  display: flex;
+  gap: 2rem;
+  justify-content: left;
+  padding-top: 1rem;
+}
+
+.checked-item,
+.not-checked-item {
+  margin-left: 10px;
+}
+.checked-item {
+  text-decoration: line-through;
+}
